@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'k24bold';
+    src: url("assets\fonts\K24KurdishBold-Bold(1).ttf");
+    font-family: 'sarchiaQ';
+    src: url("assets\fonts\72_Sarchia_Qaisy.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: #32373B;
+    padding: 2rem;
+    width: 100vw;
+
+}
+
+.myNavbar {
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.myitem {
+    display: inline;
+    margin-right:1rem;
+}
+
+.myitem a {
+    text-decoration: none;
+    background-color:#FECA1F;
+}
+
+.KurdmadLogo {
+    width: 10rem;
+    justify-content: center;
+    box-shadow: 1px 0px 5px 2px #FECA1F;
+}
+
+body {
+    background-color: #4A5859;
+    font-family: 'k24bold';
+}
+
+.logBTN {
+    text-align: center;
+    text-decoration: none;
+    background-color: #FECA1F;
+    box-shadow: 1px 2px 2px 2px #32373B;
+    padding: 1rem;
+    font-size: 16pt;
+    border-radius: 5rem;
+}
+
+footer {
+    background-color: #32373B;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    padding: 1rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer h5 a {
+    color: #FECA1F;
+    font-family: 'k24bold';
+    text-decoration: none;
+}
+
+footer h5 a:hover {
+    color: whitesmoke;
+    font-family: 'k24bold';
+    text-decoration: underline;
+}
+
+/* login page */
+.card {
+    color: #FECA1F;
+    border-color: #FECA1F;
+    
+}
+
+.logCard {
+    background-color: #32373B;
+    width: 20rem;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.logCard-Header {
+    text-align: center;
+    border-color: #FECA1F;
+}
+
+input {
+    width: 18rem;
+    margin-left: 5rem;
+}
+
+.section-cards:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.logBTNA {
+    text-align: center;
+    text-decoration: none;
+    background-color: #FECA1F;
+    box-shadow: 1px 2px 2px 2px #32373B;
+    border-radius: 5rem;
+}
+@media only screen and (max-width:397px) {
+    .myNavbar {
+        display: none;
+        
+    }
+    nav {
+        background-color: #32373B;
+        padding: 2rem;
+        box-sizing: content-box;
+        text-align: center;
+    }
+    .logCard {
+        background-color: #32373B;
+        text-align: center;
+        justify-content: center;
+        width: fit-content;
+        margin-left: 2rem;
+        margin-top: 3rem;
+    }
+    footer{
+       position: -ms-page; 
+       width: 121vw;
+       bottom: 0;
+       top: 111vh;
+       height: fit-content;
+    }
+    nav{
+        width: 102vw;
+    }
+}
+@media only screen and (max-width:768px) {
+    input {
+        width: 10rem;
+        margin-left: 0;
+    }
+}
